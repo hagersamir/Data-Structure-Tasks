@@ -1,0 +1,3 @@
+C:/Users/hager/github-classroom/sbme-tutorials/task3-deque-hagersamir/cmake-build-debug/CMakeFiles/task3_deque_hagersamir.dir
+C:/Users/hager/github-classroom/sbme-tutorials/task3-deque-hagersamir/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hager/github-classroom/sbme-tutorials/task3-deque-hagersamir/cmake-build-debug/CMakeFiles/rebuild_cache.dir

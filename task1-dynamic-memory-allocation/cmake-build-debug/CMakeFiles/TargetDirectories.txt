@@ -1,0 +1,3 @@
+C:/Users/hager/OneDrive/Documents/GitHub/task1-dynamic-memory-allocation-hagersamir/cmake-build-debug/CMakeFiles/task1_dynamic_memory_allocation_hagersamir.dir
+C:/Users/hager/OneDrive/Documents/GitHub/task1-dynamic-memory-allocation-hagersamir/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hager/OneDrive/Documents/GitHub/task1-dynamic-memory-allocation-hagersamir/cmake-build-debug/CMakeFiles/rebuild_cache.dir
