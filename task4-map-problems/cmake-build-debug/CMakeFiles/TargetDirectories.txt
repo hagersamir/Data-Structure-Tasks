@@ -1,0 +1,3 @@
+C:/Users/hager/github-classroom/sbme-tutorials/task4-map-problems-hagersamir/cmake-build-debug/CMakeFiles/task4_map_problems_hagersamir.dir
+C:/Users/hager/github-classroom/sbme-tutorials/task4-map-problems-hagersamir/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/hager/github-classroom/sbme-tutorials/task4-map-problems-hagersamir/cmake-build-debug/CMakeFiles/rebuild_cache.dir

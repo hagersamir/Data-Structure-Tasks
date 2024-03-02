@@ -1,0 +1,69 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "g++ build p1 main file",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/p1/p1.cpp",
+                "${workspaceFolder}/main.cpp",
+                "-o",
+                "${workspaceFolder}/p1_main.out"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "g++ build p1 test file",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/p1/p1.cpp",
+                "${workspaceFolder}/p1/p1_test/test.cpp",
+                "-o",
+                "${workspaceFolder}/p1_test.out"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "g++ build p2 main file",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/p2/p2.cpp",
+                "${workspaceFolder}/main.cpp",
+                "-o",
+                "${workspaceFolder}/p2_main.out"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+        {
+            "type": "shell",
+            "label": "g++ build p2 test file",
+            "command": "g++.exe",
+            "args": [
+                "-g",
+                "${workspaceFolder}/p2/p2.cpp",
+                "${workspaceFolder}/p2/p2_test/test.cpp",
+                "-o",
+                "${workspaceFolder}/p2_test.out"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build"
+        },
+    ]
+}

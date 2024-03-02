@@ -1,0 +1,92 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch p1_main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/p1_main.out", //"enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ build p1 main file",
+            "miDebuggerPath": "gdb.exe"
+        },
+        {
+            "name": "(gdb) Launch p1_test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/p1_test.out", //"enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ build p1 test file",
+            "miDebuggerPath": "gdb.exe"
+        },
+        {
+            "name": "(gdb) Launch p2_main",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/p2_main.out", //"enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ build p2 main file",
+            "miDebuggerPath": "gdb.exe"
+        },
+        {
+            "name": "(gdb) Launch p2_test",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/p2_test.out", //"enter program name, for example ${workspaceFolder}/a.out",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ build p2 test file",
+            "miDebuggerPath": "gdb.exe"
+        }
+    ]
+}
